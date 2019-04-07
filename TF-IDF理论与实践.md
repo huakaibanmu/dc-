@@ -12,5 +12,7 @@ N代表语料库中所有文本的总数，N(x)代表语料库中含有x词的�
 
 平滑后的IDF：
 如果一个生僻词语料库中没有，这时分母N(x)为0，IDF没有意义。因此要对上面的公式进一步平滑处理：
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=IDF(x) = log\frac{N+1}{N(x)+1}+ 1" style="border:none;">
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=IDF(x)&space;=&space;log\frac{N&plus;1}{N(x)&plus;1}&space;&plus;&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?IDF(x)&space;=&space;log\frac{N&plus;1}{N(x)&plus;1}&space;&plus;&space;1" title="IDF(x) = log\frac{N+1}{N(x)+1} + 1" /></a>
+
 
