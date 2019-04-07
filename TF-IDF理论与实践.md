@@ -42,7 +42,8 @@ X_valid = vectorizer.fit_transform(x_val['word_seg'])
 print(X_train)
 ```
 
-输出数据
+# 输出训练集中词的TF-IDF值
+![...](https://github.com/huakaibanmu/dc-/blob/master/TIM%E6%88%AA%E5%9B%BE20190407111139.png)
 
 
 
